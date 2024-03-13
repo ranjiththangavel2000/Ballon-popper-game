@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balloon Popper Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <div id="game-container">
+        <div id="start-screen">
+            <h1>Balloon Popper</h1>
+            <button id="start-btn">Start</button>
+        </div>
+        <div id="game-screen">
+            <div id="timer">02:00</div>
+            <div id="score">
+                <span>Balloons Popped: </span><span id="pop-count">0</span><br>
+                <span>Balloons Missed: </span><span id="miss-count">0</span>
+            </div>
+            <div id="balloons-container"></div>
+        </div>
+        <div id="end-screen">
+            <h2>Game Over</h2>
+            <div id="final-score">Final Score: <span id="score-value">0</span></div>
+            <button id="play-again-btn">Play Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
